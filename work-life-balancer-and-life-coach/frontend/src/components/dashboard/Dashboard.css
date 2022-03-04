@@ -1,0 +1,19 @@
+.main-div{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+button{
+    background-color: #f0a613;
+    color: white;
+}
+
+.title{
+color: #f0a613 !important;
+}
+
+.afterSubmittionView{
+    text-align: center;
+    color: rgb(235, 37, 169);
+}
