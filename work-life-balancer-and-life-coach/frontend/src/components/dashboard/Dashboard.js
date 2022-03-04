@@ -9,7 +9,7 @@ const Dashboard = (props) => {
   const [logoffTime, setLogoffTime] = useState('');
   const [lunchTime, setLunchTime] = useState('');
   const [notifyInHours, setNotifyInHours] = useState('');
-  const [isSubmitted, setIsSubmitted] = useState(true);
+  const [isSubmitted, setIsSubmitted] = useState(false);
 
   const handleNameChange = (event) => {
     setName(event.target.value);
