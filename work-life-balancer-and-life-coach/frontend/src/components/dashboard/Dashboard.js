@@ -27,18 +27,6 @@ const Dashboard = (props) => {
     setEmail(event.target.value);
   }
 
-  const handleLoginTimeChange = (event) => {
-    setLoginTime(event.target.value)
-  }
-
-  const handleLogoffTimeChange = (event) => {
-    setLogoffTime(event.target.value)
-  }
-
-  const handleLunchTimeChange = (event) => {
-    setLunchTime(event.target.value)
-  }
-
   const handleNotifyInHoursChange = (event) => {
     setNotifyInHours(event.target.value)
   }
