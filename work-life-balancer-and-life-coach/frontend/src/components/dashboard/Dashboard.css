@@ -17,3 +17,44 @@ color: #f0a613 !important;
     text-align: center;
     color: rgb(235, 37, 169);
 }
+
+#parent-card{
+    background-color: #fff;
+    margin-left:100px;
+    margin-right:100px;
+    margin-top:15px
+}
+
+#form-card{
+    background-color: #fff;
+    padding: 0px !important;
+}
+
+#form-title{
+    padding-top: 0px !important;
+}
+
+#parent-title{
+    justify-content: center !important; 
+}
+
+#item{
+    margin: 0px !important;
+}
+
+#name{
+    width: 100% !important;
+}
+
+#breakInterval{max-width: 50% !important;
+    margin-right:50px !important;
+}
+
+.MuiTimelineConnector-root{
+    height: 100px;
+    background-color: rgb(68, 0, 255) !important;
+}
+
+#time-box{
+    padding-left: 0px;
+}

@@ -29,11 +29,11 @@ const insertUserDetails = async (subscription, userDetails) => {
 const computeNotificationsToBeSent = async (userDetails) => {
 
     try {
-        const reminderForLogOffTime = moment(userDetails.logoffTime, 'HH:mm a').subtract(10, "minutes").toString();
-        const reminderForLunchTime = moment(userDetails.lunchTime, 'HH:mm a').subtract(10, "minutes").toString();
+        const reminderForLogOffTime = moment(userDetails.logoffTime).subtract(10, "minutes").toString();
+        const reminderForLunchTime = moment(userDetails.lunchTime).subtract(10, "minutes").toString();
         const notifyTime = userDetails.maxWorkPeriodInHours;
-        const loginTime = moment(userDetails.loginTime, 'HH:mm a');
-        const logoffTime = moment(userDetails.logoffTime, 'HH:mm a');
+        const loginTime = moment(userDetails.loginTime);
+        const logoffTime = moment(userDetails.logoffTime);
 
         let time = loginTime.add(notifyTime, "hours");
         let sitStraightNotifications = [];
